@@ -1,0 +1,40 @@
+:root {
+  --clr-dark: #070a12;
+  --clr-light: #f9f9fb;
+  --clr-accent: #f43f70;
+  --clr-bg-section: #7fffd4;
+  --clr-bg-content: #fff9f4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  word-spacing: 1.4px;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+}
+
+section {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-color: var(--clr-bg-section);
+}
+
+.section-title {
+  font-size: clamp(2rem, calc(3vw + 1rem), 4rem);
+  text-align: center;
+  margin-bottom: 1rem;
+}
