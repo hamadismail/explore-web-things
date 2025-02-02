@@ -28,6 +28,7 @@ body {
 section {
   max-width: 90%;
   margin: 0 auto;
+  min-height: 100dvh;
   margin-bottom: 3rem;
   padding: 1rem;
   background-color: var(--clr-bg-section);

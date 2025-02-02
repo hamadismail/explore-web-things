@@ -20,11 +20,6 @@
   animation-duration: 3s;
 }
 
-.section {
-  height: 100dvh;
-  margin-bottom: 24px;
-}
-
 .container {
   text-align: center;
   width: 30vw;
